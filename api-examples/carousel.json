@@ -1,0 +1,16 @@
+[
+  {
+    "images": [
+      "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    ],
+    "res_id": "/restaurants/restaurant_1"
+  },
+  {
+    "images": [
+      "https://images.pexels.com/photos/761854/pexels-photo-761854.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    ],
+    "res_id": "/restaurants/restaurant_2"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Sea Grill of Merrick Park",
+    "seats": 50,
+    "image": "https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg",
+    "address": "4250 Salzedo Street, Suite 1425, Coral Gables, FL 33146",
+    "opening": "11:30",
+    "closing": "23:00",
+    "location": { "lat": 25.7324, "lng": -80.2599 },
+    "mapUrl": "https://www.google.com/maps?q=4250+Salzedo+Street+Coral+Gables+FL+33146"
+  },
+  {
+    "name": "Ocean's Edge Bistro",
+    "seats": 50,
+    "image": "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "address": "123 Ocean Drive, Suite 101, Miami Beach, FL 33139",
+    "opening": "10:00",
+    "closing": "22:00",
+    "location": { "lat": 25.7742, "lng": -80.1340 },
+    "mapUrl": "https://www.google.com/maps?q=123+Ocean+Drive+Miami+Beach+FL+33139"
+  }
+]

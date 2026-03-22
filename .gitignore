@@ -78,3 +78,7 @@ assets/*.svg
 firebase-debug.*
 firestore-debug.log
 
+# Config files with secrets
+config/firebaseConfig.js
+config/bulkupload.js
+
