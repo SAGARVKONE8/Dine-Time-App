@@ -1,0 +1,80 @@
+# Learn more https://git-scm.com/docs/gitignore
+
+# Expo
+.expo/
+.expo-shared/
+*.expo.*
+web-build/
+
+# Node
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Misc
+.DS_Store
+*.log
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+coverage/
+.husky/
+.pnp
+.pnp.js
+.svn
+.cache
+*.tgz
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Expo
+.expo/*
+!expo-env.d.ts
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+assets/*.gif
+assets/*.webp
+assets/*.svg
+!assets/adaptive-icon.png
+!assets/favicon.png
+!assets/app-icon.png
+!assets/icon.png
+!assets/splash-icon.png
+!assets/images/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Metro
+.metro-health-check*
+
+# EAS
+.easignore
+
+# Babel
+.babelrc
+.cache
+
+# Flow
+.flowconfig
+
+# Android/IOS
+/android
+/ios
+
+# Firebase
+**/serviceAccountKey.json
+firebase-debug.*
+firestore-debug.log
+
