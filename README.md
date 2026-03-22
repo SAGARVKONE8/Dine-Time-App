@@ -17,15 +17,13 @@ Dine-Time is a modern React Native mobile app for restaurant discovery and booki
 - [Node.js](https://nodejs.org) (v20+)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/): `npm install -g expo-cli` or use `npx`
 - Expo Go app (mobile testing)
-- Android Studio / Xcode (native builds)
 - Firebase project (if using auth/firestore - update config/firebaseConfig.js)
 
 ## 🚀 Quick Start
 
 1. **Clone the repo**
    ```bash
-   git clone <your-repo-url>
-   cd Dine-Time-App
+   git clone https://github.com/SAGARVKONE8/Dine-Time-App
    ```
 
 2. **Install dependencies**
@@ -35,11 +33,8 @@ Dine-Time is a modern React Native mobile app for restaurant discovery and booki
 
 3. **Start development server**
    ```bash
-   npm start
+   npx expo start
    ```
-   - Press `a` → Android emulator/device
-   - Press `i` → iOS simulator/device
-   - Press `w` → Web browser
 
 4. **Open in Expo Go** (scan QR code from terminal)
 
@@ -60,27 +55,6 @@ Dine-Time-App/
 └── package.json      # Expo 54, React Native 0.81
 ```
 
-## 🔧 Scripts
-| Command | Description |
-|---------|-------------|
-| `npm start` | Start dev server |
-| `npm run android` | Android |
-| `npm run ios` | iOS |
-| `npm run web` | Web |
-| `npm run lint` | ESLint |
-
-## 📱 Building for Production
-```bash
-# Install EAS CLI
-npm install -g eas-cli
-
-# Login
-eas login
-
-# Build (uses eas.json)
-eas build --platform android  # or ios
-```
-
 ## 🔍 Troubleshooting
 - **Metro bundler issues**: `npm start --clear` or delete `.expo/`
 - **Fonts not loading**: Check `expo-font` usage
@@ -88,17 +62,6 @@ eas build --platform android  # or ios
 - **Animations**: Ensure `babel.config.js` has Reanimated plugin
 - **Tailwind**: `npx tailwindcss init` if needed
 
-## 🤝 Contributing
-1. Fork & clone
-2. `npm install`
-3. Create branch: `git checkout -b feature/xyz`
-4. Commit: `git commit -m 'feat: add xyz'`
-5. Push & PR
-
-## 📄 License
-MIT
-
----
 
 Built with ❤️ using Expo, React Native, TailwindCSS & Firebase
 
